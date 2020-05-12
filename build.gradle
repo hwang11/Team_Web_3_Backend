@@ -50,6 +50,7 @@ dependencies {
     testImplementation 'org.springframework.security:spring-security-test'
     compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.5.0'
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.5.0'
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1' //jwt
 }
 
 dependencyManagement { //파일 업로드를 위한 cloud 의존성 추가
